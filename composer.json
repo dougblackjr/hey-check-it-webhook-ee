@@ -1,0 +1,26 @@
+{
+    "name": "triplenerdscore/hey-check-it-webhook",
+    "description": "Sends a webhook to Hey, Check it",
+    "version": "1.0.0",
+    "keywords": [
+        "ExpressionEngine"
+    ],
+    "support": {
+        "docs": "https:\/\/triplenerdscore.net"
+    },
+    "authors": [
+        {
+            "name": "Doug Black Jr",
+            "homepage": "https:\/\/triplenerdscore.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "HeyCheckItWebhook\\": "app/"
+        }
+    },
+    "require": {
+        "kriswallsmith/buzz": "1.0.1",
+        "nyholm/psr7": "^1.3"
+    }
+}
